@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SCSS / CSS StyleSheet -->
+    <link rel="stylesheet" href="styles/home/hero/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="background-color: #023047;" class="pb-5 pt-3 hero">
+        <div class="container mb-5 pb-5">
+            <h2 class="text-light fs-4 py-4">Travel Bookings Made Easy</h2>
+
+            <div class="row">
+                <div class="col">
+                    <div class="d-flex justify-content-start tabs rounded-top">
+                        <div class="px-3 pt-3 rounded-top bg-light fw-semibold text_size hero_theme_clr">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-airplane text_size hero_theme_clr" viewBox="0 0 16 16">
+                                <path
+                                    d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849m.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1s-.458.158-.678.599" />
+                            </svg>
+                            Flights
+                            <hr class="mb-0">
+                        </div>
+                        <!-- <div class="d-flex justify-content-around align-items-center"> -->
+                        <div class=" px-3 pt-3 fw-semibold text_size hero_theme_clr mx-md-3 rounded-top hero_hover">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-buildings" viewBox="0 0 16 16">
+                                <path
+                                    d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022M6 8.694 1 10.36V15h5zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5z" />
+                                <path
+                                    d="M2 11h1v1H2zm2 0h1v1H4zm-2 2h1v1H2zm2 0h1v1H4zm4-4h1v1H8zm2 0h1v1h-1zm-2 2h1v1H8zm2 0h1v1h-1zm2-2h1v1h-1zm0 2h1v1h-1zM8 7h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zM8 5h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zm0-2h1v1h-1z" />
+                            </svg>
+                            Hotels
+                        </div>
+                        <div class=" px-3 pt-3 fw-semibold text_size hero_theme_clr mx-md-3 rounded-top hero_hover">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-bus-front" viewBox="0 0 16 16">
+                                <path
+                                    d="M5 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0m8 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-6-1a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2zm1-6c-1.876 0-3.426.109-4.552.226A.5.5 0 0 0 3 4.723v3.554a.5.5 0 0 0 .448.497C4.574 8.891 6.124 9 8 9s3.426-.109 4.552-.226A.5.5 0 0 0 13 8.277V4.723a.5.5 0 0 0-.448-.497A44 44 0 0 0 8 4m0-1c-1.837 0-3.353.107-4.448.22a.5.5 0 1 1-.104-.994A44 44 0 0 1 8 2c1.876 0 3.426.109 4.552.226a.5.5 0 1 1-.104.994A43 43 0 0 0 8 3" />
+                                <path
+                                    d="M15 8a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1V2.64c0-1.188-.845-2.232-2.064-2.372A44 44 0 0 0 8 0C5.9 0 4.208.136 3.064.268 1.845.408 1 1.452 1 2.64V4a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1v3.5c0 .818.393 1.544 1 2v2a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5V14h6v1.5a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-2c.607-.456 1-1.182 1-2zM8 1c2.056 0 3.71.134 4.822.261.676.078 1.178.66 1.178 1.379v8.86a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 11.5V2.64c0-.72.502-1.301 1.178-1.379A43 43 0 0 1 8 1" />
+                            </svg>
+                            Buses
+                        </div>
+                        <div class=" px-3 pt-3 fw-semibold text_size hero_theme_clr mx-md-3 rounded-top hero_hover">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-passport" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 5a3 3 0 1 0 0 6 3 3 0 0 0 0-6M6 8a2 2 0 1 1 4 0 2 2 0 0 1-4 0m-.5 4a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z" />
+                                <path
+                                    d="M3.232 1.776A1.5 1.5 0 0 0 2 3.252v10.95c0 .445.191.838.49 1.11.367.422.908.688 1.51.688h8a2 2 0 0 0 2-2V4a2 2 0 0 0-1-1.732v-.47A1.5 1.5 0 0 0 11.232.321l-8 1.454ZM4 3h8a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1" />
+                            </svg>
+                            UAE Visa
+                        </div>
+                        <!-- </div> -->
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
+
+            <div class="bg-light rounded-bottom rounded-end container pb-4">
+                <div class="row pt-4">
+                    <div class="col-12 col-md-3">
+                        <span class="rounded-5 border border-1 text_size_sm px-1 mx-1">One Way</span>
+                    <span class="rounded-5 border border-1 text_size_sm px-1 mx-1">Return</span>
+                    <span class="rounded-5 border border-1 text_size_sm px-1 mx-1">Multi City</span>
+                    </div>
+
+                    <div class="d-flex col-12 col-md-9">
+                        <a class="mx-md-3 nav-link dropdown-toggle nav_nmbr theme_clr" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-person-arms-up" viewBox="0 0 16 16">
+                                <path d="M8 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" />
+                                <path
+                                    d="m5.93 6.704-.846 8.451a.768.768 0 0 0 1.523.203l.81-4.865a.59.59 0 0 1 1.165 0l.81 4.865a.768.768 0 0 0 1.523-.203l-.845-8.451A1.5 1.5 0 0 1 10.5 5.5L13 2.284a.796.796 0 0 0-1.239-.998L9.634 3.84a.7.7 0 0 1-.33.235c-.23.074-.665.176-1.304.176-.64 0-1.074-.102-1.305-.176a.7.7 0 0 1-.329-.235L4.239 1.286a.796.796 0 0 0-1.24.998l2.5 3.216c.317.316.475.758.43 1.204Z" />
+                            </svg>
+                            Adults
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"></li>
+                        </ul>
+
+                        <a class="mx-md-3 nav-link dropdown-toggle nav_nmbr theme_clr" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Economy
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class=" row">
+                    <div class="col-12 col-md-3 mb-3">
+                        <i class="fa-solid fa-location-dot i"></i>
+                        <input class="w-100 py-1 pe-1 ps-4 text_size" placeholder="Flying From (City or Airport)"
+                            type="text" name="" id="">
+                    </div>
+                    <div class="col-12 col-md-3 mb-3">
+                        <i class="fa-solid fa-location-dot i"></i>
+                        <input class="w-100 py-1 pe-1 ps-4 text_size" placeholder="Flying To(City or Airport)"
+                            type="text" name="" id="">
+                    </div>
+                    <div class="col-12 col-md-3 mb-3">
+                        <i class="fa-regular fa-calendar i"></i>
+                        <input class="w-100 py-1 pe-1 ps-4 text_size" type="date" name="" id="">
+                    </div>
+                    <div class="col-12 col-md-3 mb-3">
+                        <i class="fa-regular fa-calendar i"></i>
+                        <input class="w-100 py-1 pe-1 ps-4 text_size" readonly placeholder="Returning" type="tel"
+                            name="" id="">
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button class="btn btn-dark px-5 search_btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                        </svg>
+                        Search
+                    </button>
+                </div>
+                <!-- <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-6 d-flex">
+                        <button class="btn btn-primary px-lg-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-search theme_clr" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                            </svg>
+                            Search Flights
+                        </button>
+                        <div class="d-flex">
+                            <p class="w-100">Trending Searches: </p>
+                            <p class="border rounded-2 w-100">Karachi - Dubai</p>
+                            <p class="border rounded-2 w-100">Lahore - Jeddah</p>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="row">
+                    <div class="col-5"></div>
+                    <div class="col-7">
+                        <div class="row">
+                            <div class="col-4"><button class="btn btn-dark px-5 search_btn">Search</button></div>
+                            <div class="col-8 d-flex ms-auto align-items-center">
+                                <div class="d-flex">
+                                    <div class=" text_size trendSear">Trending Searches: </div>
+                                    <div class=" text_size rounded-1 travel_trend">Karachi - Dubai</div>
+                                    <div class=" text_size rounded-1 travel_trend">Lahore - Jeddah</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="text-end border">
+                    <button class="btn btn-dark px-5 search_btn">Search</button>
+                    <span class="text_size mx-2">Trending Searches: </span>
+                    <span class="text_size rounded-1 travel_trend">Karachi - Dubai</span>
+                    <span class="text_size rounded-1 travel_trend">Lahore - Jeddah</span>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

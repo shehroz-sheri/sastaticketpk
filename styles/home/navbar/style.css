@@ -1,0 +1,25 @@
+.theme_clr {
+  color: #0A509B;
+}
+
+::-moz-placeholder {
+  color: #0A509B;
+  opacity: 1;
+}
+
+::placeholder {
+  color: #0A509B;
+  opacity: 1;
+}
+
+::-ms-input-placeholder {
+  color: #0A509B;
+}
+
+#nav_input:focus {
+  outline: none;
+}
+
+.nav_nmbr {
+  font-size: smaller;
+}/*# sourceMappingURL=style.css.map */

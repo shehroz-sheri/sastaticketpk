@@ -1,0 +1,75 @@
+.hero_theme_clr {
+  color: #0A509B;
+}
+
+.text_size {
+  font-size: smaller;
+}
+
+hr {
+  border: 1px solid;
+}
+
+.tabs {
+  background-color: #0A509B;
+}
+
+.hero_hover {
+  color: white;
+  cursor: pointer;
+}
+
+.hero_hover:hover {
+  background-color: white;
+  color: #0A509B;
+}
+
+.text_size_sm {
+  font-size: x-small;
+}
+
+.text_size_sm:hover {
+  color: white;
+  cursor: pointer;
+  background-color: #0A509B;
+}
+
+input {
+  border: 1px solid #0A509B;
+  border-radius: 3px;
+}
+
+input:focus {
+  outline: 1.5px solid #0A509B;
+}
+
+input[type=tel] {
+  border: 1px solid #0A509B;
+  border-radius: 3px;
+}
+
+input[type=tel]:focus {
+  border: 0px;
+}
+
+.i {
+  position: absolute;
+  padding-top: 6px;
+  padding-left: 4px;
+  color: #0A509B;
+}
+
+.search_btn {
+  background-color: #0A509B;
+  color: white;
+}
+
+.travel_trend {
+  background-color: rgba(10, 80, 155, 0.2666666667);
+  border: 1.5px solid #0A509B;
+  padding: 1px 4px;
+}
+
+.trendSear {
+  white-space: nowrap;
+}/*# sourceMappingURL=style.css.map */

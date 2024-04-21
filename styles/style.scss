@@ -1,0 +1,49 @@
+$primary: #0A509B;
+
+#card2 {
+    margin-left: 5px;
+    width: 300px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    color: white;
+}
+
+.contact {
+    background-color: #264653;
+    color: white;
+}
+
+#subscribe {
+    background-color: #023047;
+    color: white;
+}
+
+#getapp {
+    mix-blend-mode: multiply;
+    width: 150px;
+}
+
+.text_size_payment {
+    font-size: smaller;
+}
+
+.pay_btn {
+    background-color: $primary;
+}
+
+.main_div_payement {
+    background-color: whitesmoke;
+}
+
+.sub_btn {
+    background-color: $primary;
+}
+
+.pay_main_div {
+    background-color: whitesmoke;
+}

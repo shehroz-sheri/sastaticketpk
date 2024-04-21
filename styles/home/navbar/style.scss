@@ -1,0 +1,23 @@
+$primary: #0A509B;
+
+
+.theme_clr {
+    color: $primary;
+}
+
+::placeholder {
+    color: $primary;
+    opacity: 1;
+}
+
+::-ms-input-placeholder {
+    color: $primary;
+}
+
+#nav_input:focus {
+    outline: none;
+}
+
+.nav_nmbr{
+    font-size: smaller;
+}

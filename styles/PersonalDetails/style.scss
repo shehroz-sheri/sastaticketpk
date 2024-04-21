@@ -1,0 +1,37 @@
+$primary: #0A509B;
+
+.right_div, .left_div{
+    background-color: white;
+    border-radius: 5px;
+}
+.main{
+    background-color: whitesmoke;
+    padding: 60px 0;
+}
+
+.left_div{
+    padding: 50px 20px;
+}
+
+.right_sub{
+    margin-top: 33px;
+    margin-bottom: 15px;
+}
+
+.reserve_seats{
+    background-color: $primary;
+    color: white;
+}
+
+.woman_seats{
+    background-color: palevioletred;
+    color: white;
+}
+
+.seats{
+    border: 1px solid;
+}
+
+.seats_detail{
+    padding: 10px 10px;
+}
